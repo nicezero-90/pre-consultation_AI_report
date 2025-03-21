@@ -1,7 +1,3 @@
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.103.1-green.svg)](https://fastapi.tiangolo.com/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-API-orange.svg)](https://openai.com/api/)
-
 一個使用FastAPI建構的多媒體處理應用，可同時處理JSON、TXT和MP4文件，並使用OpenAI API生成整合報告。
 
 ## 系統架構圖
@@ -88,21 +84,17 @@ project-root/
 │   │   ├── mp4_processor.py  # 處理MP4檔案並使用Whisper生成txt
 │   │   ├── text_processor.py # 處理txt檔案
 │   │   ├── llm_processor.py  # 使用OpenAI API整合txt報告
-│   │
-│   ├── utils/                # 工具類函數
-│   │   ├── __init__.py
-│   │   ├── file_handler.py   # 檔案處理工具
-│
-├── data/                     # 資料目錄
-│   ├── input/                # 輸入檔案目錄
-│   └── output/               # 輸出檔案目錄
 │
 └── tests/                    # 測試目錄
     ├── __init__.py
     ├── test_json_processor.py
     ├── test_mp4_processor.py
     ├── test_text_processor.py
-    └── test_llm_processor.py
+    ├── test_llm_processor.py
+    │
+    ├── data/                 # 測試資料目錄
+    │   ├── input/            # 測試輸入檔案目錄
+    │   └── output/           # 測試輸出檔案目錄
 ```
 
 ## 在Google Colab上使用
