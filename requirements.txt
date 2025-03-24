@@ -1,6 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+openai
+ffmpeg-python
+pydantic
 pandas
 openpyxl
 moviepy
-openai
 opencc
 chardet
