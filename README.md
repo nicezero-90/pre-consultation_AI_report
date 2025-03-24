@@ -86,7 +86,7 @@ project-root/
 │   │   │   ├── json_processor.py # 處理JSON並提取txt
 │   │   │   ├── mp4_processor.py  # 處理MP4檔案並使用Whisper生成txt
 │   │   │   ├── text_processor.py # 處理txt檔案
-│   │   ├── llm_processor.py  # 使用OpenAI API整合txt報告
+│   │   └── llm_processor.py  # 使用OpenAI API整合txt報告
 │
 └── tests/                    # 測試目錄
     ├── data/                 # 測試資料目錄
