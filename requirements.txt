@@ -1,0 +1,6 @@
+pandas
+openpyxl
+moviepy
+openai
+opencc
+chardet
