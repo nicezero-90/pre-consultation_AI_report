@@ -89,12 +89,6 @@ project-root/
 │   │   ├── llm_processor.py  # 使用OpenAI API整合txt報告
 │
 └── tests/                    # 測試目錄
-    ├── __init__.py
-    ├── test_json_processor.py
-    ├── test_mp4_processor.py
-    ├── test_text_processor.py
-    ├── test_llm_processor.py
-    │
     ├── data/                 # 測試資料目錄
     │   ├── input/            # 測試輸入檔案目錄
     │   └── output/           # 測試輸出檔案目錄
